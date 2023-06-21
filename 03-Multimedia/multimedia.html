@@ -4,6 +4,18 @@
         <title>Multimedia con HTML</title>
     </head>
     <body>
-        <img src="Imagenes/logo.png" alt="Logo HTML" width="300" height="300"> <!-- src(cual es la imagen) alt(texto alternativo si la imagen no se muestra) -->
+        <!-- En estos archivos multimedia uno se puede alimentar de archivos externos -->
+        <h3>Imagenes</h3>
+        <img src="Documentos/logo.png" alt="Logo HTML" width="300" height="300"> <!-- src(cual es la imagen) alt(texto alternativo si la imagen no se muestra) -->
+        <img src="https://thumbor.forbes.com/thumbor/fit-in/960x600/https://www.forbes.com/wheels/wp-content/uploads/2022/09/2023_Mercedes-Benz_Sclass_Gallery1.jpg" alt="Luxury car" width="550" height="300">
+        <h3>Video</h3>
+        <video width="400" height="400" controls muted loop> <!-- autoplay muted loop(Cuando se acabe se reproduce de nuevo)-->
+            <source src="Documentos/videoHTML.mp4" type="video/mp4">
+        </video>
+
+        <h3>Audios</h3>
+        <audio controls autoplay loop>
+            <source src="Documentos/music.mp3" type="audio/mp3">
+        </audio>    
     </body>
 </html>
