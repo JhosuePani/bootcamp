@@ -1,0 +1,9 @@
+/* Se esta importando desde la hoja de google directamente a la hoja de estilos */
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200;500;900&display=swap');
+
+html {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: larger;
+    font-weight: 200; 
+    /* font-style: italic; */
+}

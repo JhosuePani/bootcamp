@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400;700;900&display=swap');
+
+html {
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.subtitulo {
+    font-weight: 700;
+}
+
+.encabezado {
+    font-weight: 900;
+}
+
+li {
+    font-weight: 400;
+}
+
+#elemento-1 {
+    color:red;
+    font-size: 2rem;
+}
