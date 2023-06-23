@@ -1,0 +1,45 @@
+div {
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+/* Posicionamiento relativo - se posiciona en relacion al posicionamiento original */
+.relative {
+    position: relative;
+    /* left: 80px; */
+    /* margin-left: 10px; */
+}
+
+/* Posicionamiento fixed - Posicionamiento fijo, Se queda en la misma posicion de la pantalla 
+independientemente de hacia a donde se mueva  */
+.fixed {
+    position: fixed;
+    color:azure;
+    bottom: 0px;
+    background-color: blueviolet;
+    z-index: 20; /* Este sirve para que se posicione por encima de todos los elementos */
+}
+
+/* Posicionamiento absoluto - Posicionaiento fijo, se queda en la misma posicion con la diferencia
+que si desaparece de la pantalla si el cursor sale de su rango */
+.absolute {
+    position: absolute;
+    top: 0px;
+}
+
+.relative.contenedor {
+    width: 400px;
+    height: 900px;
+    background-color: chocolate;
+}
+
+/* Posicionamiento sticky - Es parecido al anterior, ejemplo: el del menu que se hace arriba
+y siempre se queda ahi */
+.sticky {
+    position: sticky;
+    background-color: aquamarine;
+    top: 0px;
+    z-index: 2; /* Lo mismo que se queda fijo */
+}

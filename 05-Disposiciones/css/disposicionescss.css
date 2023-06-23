@@ -1,0 +1,22 @@
+.div-1, .div-2 {
+    background-color: blueviolet;
+    /* display:block; POR DEFECTO */
+}
+
+.span-1 {
+    background-color: cadetblue;
+    /* display:inline;  POR DEFECTO*/
+    float: left;
+}
+
+.span-2 {
+    background-color: cadetblue;
+    /* display:inline;  POR DEFECTO*/
+    float: right;
+}
+
+.img {
+    width: 70px;
+    height: 70px;
+    /* display:inline-block POR DEFECTO */
+}
