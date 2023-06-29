@@ -1,0 +1,31 @@
+.flex {
+    display: flex; /* Me organiza todo lo que este dentro del div de manera ordenada */
+    flex-direction: row; /* Disposicion de los divs */ 
+    background-color: yellow;
+    height: 300px;
+    justify-content: space-around; /* Posiciona los elementos dentro del flex con relacion al eje principal(Hay muchas maneras) */
+    align-items: center; /* Altura de los divs */
+    /* flex-wrap: nowrap; Redimensiona dependiendo de la pantalla */
+    /* flex-wrap: wrap; Redimensiona pero con el ancho de los div fijos */
+}
+
+.contenido-1 {
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+} 
+
+.contenido-2 {
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.contenido-3 {
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}

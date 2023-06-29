@@ -1,0 +1,6 @@
+{
+    "prettier.embeddedLanguageFormatting": "auto",
+    "prettier.printWidth": 80,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": true
+}

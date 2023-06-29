@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400;700;900&display=swap');
+
+html {
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.imagen-principal {
+    width: 100vw; /* vw - Es el 100 de ancho de la pantalla */
+    /* height: 99vh; */
+    opacity: 0.5; /* 0 - 1 */
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+}
+
+.titulo {
+    position: absolute;
+    font-size: 40px;
+    color: rgb(24, 19, 54);
+    top: 50%;
+    left: 30%;
+}
+
+.imagen-principal:hover {
+    opacity: 1;
+} /* El 'hover' muestra la opacidad que dejamos cuando el cursor este encima de la imagen */
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre las imagenes */
+}
+
+.imagen-galeria {
+    width: 200px;
+}
+
+.imagen-galeria:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
